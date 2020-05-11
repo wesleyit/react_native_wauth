@@ -17,11 +17,11 @@ function Splash({navigation}) {
         <Icon
           name="hand-spock"
           type="font-awesome-5"
-          iconStyle={[S.splash_icon]}
+          iconStyle={[S.splash_icon, S.fg_dark]}
         />
       </View>
       <View style={[S.flex_row, S.flex_20, S.center]}>
-        <Text style={[S.splash_text]}>W A U T H</Text>
+        <Text style={[S.splash_text, S.fg_dark]}>W A U T H</Text>
       </View>
       <View style={[S.flex_row, S.flex_20]} />
     </View>

@@ -18,17 +18,30 @@ export default StyleSheet.create({
   // Flex Alignment and Distribution options
   flex_col: {flexDirection: 'column'},
   flex_row: {flexDirection: 'row'},
+  self_center: {alignSelf: 'center'},
   center: {alignItems: 'center', justifyContent: 'center'},
+  top_center: {alignItems: 'center', justifyContent: 'flex-start'},
+  top_left: {alignItems: 'flex-start', justifyContent: 'flex-start'},
+
+  // Margins and Padding
+  pad_10: {padding: 10},
+  pad_20: {padding: 20},
+
+  // Foreground and Backgrounds for this pallete
+  fg_dark: {color: '#666'},
+  fg_medium: {color: '#999'},
+  fg_light: {color: '#EEE'},
+  bg_dark: {backgroundColor: '#666'},
+  bg_medium: {backgroundColor: '#AAA'},
+  bg_light: {backgroundColor: '#EEE'},
+  fg_navy: {color: '#33A'},
+  bg_navy: {backgroundColor: '#33A'},
 
   // SplashScreen Items
   splash_icon: {
-    color: '#666',
     fontSize: 200,
-    alignSelf: 'center',
   },
   splash_text: {
-    color: '#666',
     fontSize: 50,
-    alignSelf: 'center',
   },
 });

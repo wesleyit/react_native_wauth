@@ -20,7 +20,7 @@ function Router(navigation) {
         <Stack.Screen
           name="Welcome"
           component={Welcome}
-          options={{headerShown: false}}
+          options={{title: 'Welcome to WAuth!', headerLeft: false}}
         />
       </Stack.Navigator>
     </NavigationContainer>
