@@ -6,7 +6,7 @@ import S from '../styles/theme';
 function Splash({navigation}) {
   useEffect(() => {
     setTimeout(() => {
-      navigation.navigate('Welcome');
+      navigation.replace('Welcome');
       console.log('Opaaaa');
     }, 2000);
   });
